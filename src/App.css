@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  position: relative;
+}
+
+
+body {
+  background-image: url(pht/bg-weather.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+div {
+  width: 375px;
+  height: 744px;
+  flex-shrink: 0;
+
+}
+
+.dd {
+  margin-top: 19px;
+  margin-left: 22px;
+}
+
+.s {
+  background-color: rgb(2, 2, 26);
+  border: 0 px;
+  animation: none;
+}
+
+input[type="text"] {
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.search {
+  position: absolute;
+  top: 16px;
+  left: 160px;
+  background-image: none;
+}
+
+.main {
+  position: absolute;
+  border: 5px soli red;
+}
+
+.gradusi {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -5.12px;
+  margin-top: 100px;
+  margin-left: 16px;
+}
+
+.maininfo {
+  display: flex;
+}
+
+.city {
+  width: 139px;
+  height: 25.217px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 120px;
+  margin-left: 10px;
+}
+
+.surati {
+  width: 40px;
+  height: 40px;
+  margin-top: 122px;
+  margin-left: -30px;
+}
+
+.blur {
+
+  width: 375px;
+  height: 490px;
+  flex-shrink: 0;
+  border-top: 5px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(9.5px);
+  /* background-color: red; */
+  position: absolute;
+  top: 250px;
+}
+
+.detail {
+  margin-top: 55px;
+  text-align: center;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ragac {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 37px;
+}
+
+.b {
+  display: flex;
+  margin-top: 29px;
+  margin-left: 45px;
+}
+
+.chamonatvali {
+  color: rgba(255, 255, 255, 0.70);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.info {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 156px;
+}
+
+.vector {
+  width: 11.283px;
+  height: 20.954px;
+  flex-shrink: 0;
+  margin-left: 20px;
+}
+
+.tempdiv {
+  height: 30px;
+}
+
+.ze {
+  margin-left: 166px;
+}
+
+.zd {
+  margin-left: 187px;
+}
+
+.za {
+  margin-left: 165px;
+}
+
+.xazi {
+  width: 285px;
+  height: 50px;
+  flex-shrink: 0;
+  border-bottom: 1px solid #FFF;
+  margin-left: 45px;
+  margin-top: -20px;
+}
+
+
+@media(width > 768px) {
+  div {
+    width: 768px;
+    height: 1049px;
+    flex-shrink: 0;
+
+  }
+
+  body {
+    background-image: url(pht/weatherr.svg);
+
+  }
+
+  .search {
+    margin-left: 320px;
+  }
+
+  .dd {
+    margin-top: 25px;
+    margin-left: 39px;
+  }
+
+  .blur {
+    width: 767px;
+    height: 790px;
+    margin-top: 190px;
+  }
+
+  .gradusi {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -9.6px;
+    margin-top: 210px;
+    margin-left: 50px;
+  }
+
+  .city {
+    margin-top: 250px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 189px;
+    height: 53.011px;
+    margin-left: 15px;
+    flex-shrink: 0;
+  }
+
+  .surati {
+    margin-top: 235px;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    margin-left: -40px;
+
+  }
+
+  .raxdeba {
+    margin-left: 200px;
+    margin-top: 50px;
+  }
+}
+@media(width > 1440px) {
+  div {
+    width: 768px;
+    height: 1049px;
+    flex-shrink: 0;
+
+  }
+
+  body{
+    background-image: url(pht/sssss.svg);
+  }
+
+  .search {
+    margin-left: 320px;
+  }
+
+  .dd {
+    margin-top: 25px;
+    margin-left: 39px;
+  }
+
+  .blur {
+    width: 767px;
+    height: 790px;
+    margin-top: 190px;
+  }
+
+  .gradusi {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -9.6px;
+    margin-top: 210px;
+    margin-left: 50px;
+  }
+
+  .city {
+    margin-top: 250px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 189px;
+    height: 53.011px;
+    margin-left: 15px;
+    flex-shrink: 0;
+  }
+
+  .surati {
+    margin-top: 235px;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    margin-left: -40px;
+
+  }
+
+  .raxdeba {
+    margin-left: 200px;
+    margin-top: 50px;
+  }
+  .main{
+    position: relative;
+  }
+  .blur{
+    width: 526px;
+    top: 0;
+    position: absolute;
+    top: -70px;
+    left: 576px;
+    height: 800px;
+  }
+  .raxdeba{
+    margin-left: 0px;
+    width: 300px;
+  }
+  .maininfo{
+    position: absolute;
+    bottom: 0;
+    top: 500px;
+    right: 300px;
+  }
+  .dd{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .search{
+    position: absolute;
+    top: 150px;
+    left: 310px;
+    z-index: 99;
+    width: 500px;
+
+        
+  }
+  .detail{
+    margin-top: 120px;
+  }
+  .in{
+    color: rgba(255, 255, 255, 0.70);
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  .s{
+    width: 20px;
+height: 20px;
+flex-shrink: 0;
+  }
+  .detail{
+    text-align: left;
+    margin-left: 35px;
+
+  }
+  .ragac{
+    text-align: left;
+    margin-left: 35px;
+  }
+  .dd{
+    position: absolute;
+    top: 130px;
+    left: -270px;
+    width: 89.889px;
+height: 47px;
+  }
+  .b{
+    width: 400px;
+  }
+
+}
